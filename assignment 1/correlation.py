@@ -38,10 +38,10 @@ def findSnarePosition(snareFilename,drumloopFilename):
     snare = loadSoundFile(snareFilename)
     loop = loadSoundFile(drumloopFilename)
     z = crossCorr(snare,loop)
-    guesses = []
+    pos = []
     for i in np.arange(len(z)):
         if z[i]==1:
-            guesses.append(i)
-    return guesses
+            pos.append(i)
+    return pos
 
 findSnarePosition('snare.wav','drum_loop.wav')
