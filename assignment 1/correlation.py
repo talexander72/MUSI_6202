@@ -26,6 +26,9 @@ def correlator():
     z = crossCorr(snare,loop)
     n = np.arange(z.size)
     plt.plot(n,z)
+    plt.title('Cross Correlation')
+    plt.xlabel('Sample Number')
+    plt.ylabel('Correlation Coefficient')
     return
     
 correlator()
