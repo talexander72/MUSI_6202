@@ -1,1 +1,3 @@
 resolution = 2 Hz
+
+if input signal were zero padded, the frequency resolution would improve (move towards 1 Hz)
