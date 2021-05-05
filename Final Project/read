@@ -1,0 +1,4 @@
+Our synth works subtractively by generating white noise and bandpassing it based on what MIDI notes are input. 
+We created this in a Jupyter Notebook, but had a little trouble when exporting to a .py file to get the CLI working. 
+Our .py file has a working CLI, but for some reason the synth funciton keeps giving us an error when we call it.
+Please check out the .ipynb file if it is not too much trouble: the synth functions fully inside the notebook. Refer to the test cell at the end.
